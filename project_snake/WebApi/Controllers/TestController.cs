@@ -11,9 +11,10 @@ public class TestController : ControllerBase
     
     // Some Variables
     private const string PythonDirectory = @"C:\Python27\python.exe";
-    private const string PythonSourceScript = @"C:\Work\repos\NET-with-Python\project_snake\WebApi\PythonScripts\python_script.py";
     private const string Arg1 = "2012-1-1";
     private const string Arg2 = "2019-1-22";
+    
+    private readonly string _pythonSourceScript = Environment.CurrentDirectory + @"\PythonScripts\python_script.py";
 
     public TestController(ILogger<TestController> logger)
     {
@@ -29,7 +30,7 @@ public class TestController : ControllerBase
         // 2) Provide script and arguments
         var args = new List<string>
         {
-            PythonSourceScript, // script
+            _pythonSourceScript, // script
             Arg1, // arg1
             Arg2 // arg2
         };
