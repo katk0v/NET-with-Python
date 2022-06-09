@@ -15,7 +15,15 @@
     <projectFile profileName="IIS Express">WebApplication2/WebApplication2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e325411-1c29-49c6-989e-6c55a3f2a797" name="Changes" comment="" />
+    <list default="true" id="3e325411-1c29-49c6-989e-6c55a3f2a797" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_snake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_snake/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Controllers/TestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Controllers/TestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/Debug/net6.0/WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/Debug/net6.0/WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/Debug/net6.0/WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/Debug/net6.0/WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/obj/staticwebassets.pack.sentinel" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +240,7 @@
     <configuration name="WebApi/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="containerName" value="hello-1" />
+          <option name="containerName" value="hello-2" />
           <option name="contextFolderPath" value="." />
           <option name="portBindings">
             <list>
@@ -252,7 +260,7 @@
       <deployment type="dockerfile">
         <settings>
           <option name="buildOnly" value="true" />
-          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="contextFolderPath" value="." />
           <option name="sourceFilePath" value="WebApplication2/Dockerfile" />
         </settings>
       </deployment>
@@ -295,6 +303,7 @@
       <workItem from="1654691653010" duration="4007000" />
       <workItem from="1654696614357" duration="1196000" />
       <workItem from="1654762393353" duration="3137000" />
+      <workItem from="1654776130135" duration="6992000" />
     </task>
     <servers />
   </component>
