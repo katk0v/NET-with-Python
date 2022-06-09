@@ -21,7 +21,14 @@ public class TestController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost(Name = "RunPythonScript")]
+    [HttpGet("/api/get")]
+    public string Get()
+    {
+        _logger.LogInformation("call get method");
+        return "Hello!!!!!";
+    }
+
+    [HttpPost("/api/post")]
     public string Post()
     {
         // 1) Create Process Info
