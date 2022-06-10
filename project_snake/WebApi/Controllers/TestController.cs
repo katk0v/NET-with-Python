@@ -10,18 +10,28 @@ public class TestController : ControllerBase
     private readonly ILogger<TestController> _logger;
     
     // Some Variables
-    private const string PythonDirectory = @"C:\Python27\python.exe";
+   // private const string PythonDirectory = @"C:\Python27\python.exe"; \\ python v2.7
+    //private const string PythonDirectory = @"C:\Windows\py.exe"; // python v3.10
+    private const string PythonDirectory = "python3"; // python v3.10
     private const string Arg1 = "2012-1-1";
     private const string Arg2 = "2019-1-22";
     
-    private readonly string _pythonSourceScript = Environment.CurrentDirectory + @"\PythonScripts\python_script.py";
+    //private readonly string _pythonSourceScript = Environment.CurrentDirectory + @"\PythonScripts\python_script.py";
+    private readonly string _pythonSourceScript = Environment.CurrentDirectory + @"/PythonScripts/python_script.py";
 
     public TestController(ILogger<TestController> logger)
     {
         _logger = logger;
     }
 
-    [HttpPost(Name = "RunPythonScript")]
+    [HttpGet("/api/get")]
+    public string Get()
+    {
+        _logger.LogInformation("call get method");
+        return "Hello!!!!!";
+    }
+
+    [HttpPost("/api/post")]
     public string Post()
     {
         // 1) Create Process Info

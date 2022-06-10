@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\repos\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj": {}
+    "C:\\Work\\GitHub\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Work\\repos\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj": {
+    "C:\\Work\\GitHub\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\repos\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Work\\GitHub\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Work\\repos\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\evrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\repos\\NET-with-Python\\project_snake\\WebApi\\obj\\",
+        "projectPath": "C:\\Work\\GitHub\\NET-with-Python\\project_snake\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\vladimir.katkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\GitHub\\NET-with-Python\\project_snake\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\evrei\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vladimir.katkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
